@@ -1,0 +1,15 @@
+/*
+ * Created by 动脑科技-Tim on 17-6-21 下午8:23
+ * Copyright (c) 2017. All rights reserved
+ *
+ * Last modified 17-6-21 下午8:23
+ */
+
+apply plugin: 'kotlin'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.squareup:kotlinpoet:0.3.0'
+    compile project(':permission-annotation')
+    testCompile 'junit:junit:4.12'
+}
